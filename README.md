@@ -24,7 +24,6 @@
 
 ## 📑 Table of Contents
 
-- [📸 Screenshots](#-screenshots)
 - [✨ Features](#-features)
 - [⚙️ How It Works](#️-how-it-works)
 - [🛠️ Tech Stack](#️-tech-stack)
@@ -32,18 +31,6 @@
 - [🗂️ Project Structure](#️-project-structure)
 - [🧪 Testing Checklist](#-testing-checklist)
 - [🧠 Design Decisions](#-design-decisions)
-
----
-
-## 📸 Screenshots
-
-| 🖥️ Desktop | 📱 Mobile |
-|:---:|:---:|
-| ![Desktop view](screenshots/desktop.png) | ![Mobile view](screenshots/mobile.png) |
-
-| 📶 Wi-Fi QR | ⚠️ Scan Warning | 🕘 Recent Codes |
-|:---:|:---:|:---:|
-| ![Wi-Fi form](screenshots/wifi.png) | ![Scan warning](screenshots/warning.png) | ![Recent codes](screenshots/recent.png) |
 
 ---
 
@@ -123,7 +110,6 @@ Then open 👉 http://localhost:5173
 ```
 qr-generator/
 ├── 📁 public/
-├── 📁 screenshots/       # images used in this README
 ├── 📁 src/
 │   ├── 📄 App.jsx        # UI, validation, QR building, warnings, recent codes
 │   ├── 🎨 App.css        # styles
